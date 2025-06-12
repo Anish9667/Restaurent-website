@@ -5,7 +5,6 @@ import aboutImg from "../assets/story.avif";
 const About = () => {
   return (
     <div className="about-page text-gray-800">
-      {/* Section 1: Hero Banner */}
       <section
         className="h-[60vh] bg-cover bg-center flex items-center justify-center text-white"
         style={{ backgroundImage: `url('/images/resto.jpg')` }}
@@ -18,7 +17,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Section 2: Our Story */}
       <section className="py-16 px-6 md:px-20 bg-white grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h2 className="text-3xl font-bold mb-4">Our Story</h2>
@@ -47,7 +45,6 @@ const About = () => {
         />
       </section>
 
-      {/* Section 3: Meet the Chef */}
       <section className="bg-gray-50 py-16 px-6 md:px-20 text-center">
         <h2 className="text-3xl font-bold mb-6">Meet The Chef</h2>
         <div className="flex flex-col md:flex-row items-center justify-center gap-10">
@@ -76,7 +73,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Section 4: Why Choose Us */}
       <section className="bg-white py-16 px-6 md:px-20">
         <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
@@ -115,7 +111,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Section 5: Stats */}
       <section className="bg-red-600 text-white py-16 px-6 md:px-20">
         <div className="grid md:grid-cols-3 text-center gap-10">
           <div>

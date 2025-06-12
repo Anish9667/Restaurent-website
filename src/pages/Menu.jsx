@@ -1,4 +1,3 @@
-// src/pages/Menu.jsx
 
 import React, { useState } from "react";
 import menuItems from "../data/menuItems";

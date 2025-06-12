@@ -1,4 +1,3 @@
-// src/components/MenuCard.jsx
 
 import React from "react";
 

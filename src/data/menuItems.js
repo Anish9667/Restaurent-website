@@ -1,4 +1,3 @@
-// src/data/menuItems.js
 
 const menuItems = [
     {
@@ -424,7 +423,6 @@ const menuItems = [
   image: "/foods/Cold Coffee.jpg"
 },
   
-  // ⬇️ Extend this up to 150+ dishes
 ];
 
 export default menuItems;
